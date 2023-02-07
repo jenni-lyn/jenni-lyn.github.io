@@ -1,0 +1,58 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    top: 100px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+section {
+    margin: 50px;
+}
+
+.collaborate-btn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.collaborate-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
