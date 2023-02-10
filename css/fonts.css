@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'serif';
+    src: url('/fonts/Ade-Display.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sans-serif';
+    src: url('/fonts/Uncut-Sans-Regular.woff') format('woff'),
+         url('/fonts/Uncut-Sans-Regular.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fleurondingbats';
+    src: url('/fonts/FleuronDingbats.otf') format('opentype'),
+         url('/fonts/fleurondingbats-webfont.woff2') format('woff2'),
+         url('/fonts/fleurondingbats-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fleuronmixed';
+    src: url('/fonts/FleuronMixed.otf') format('opentype'),
+         url('/fonts/fleuronmixed-webfont.woff2') format('woff2'),
+         url('/fonts/fleuronmixed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fleuronregular';
+    src: url('/fonts/FleuronRegular.otf') format('opentype'),
+         url('/fonts/fleuronregular-webfont.woff2') format('woff2'),
+         url('/fonts/fleuronregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

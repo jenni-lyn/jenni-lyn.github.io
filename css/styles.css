@@ -1,32 +1,32 @@
-body {
-    font-family: 'IBM Plex Mono', monospace;
+* {
+    margin: 10px;
+    background-color: #f2f2f2;
 }
 
-nav {
-    background-color: white;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    text-align: center;
+body {
+    font-family: 'sans-serif';
 }
 
 header {
-    top: 100px;
-    height: 400px;
-    position: relative;
-    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0 15px;
-    padding: 0;
+header p {
+    width: 70%;
 }
 
-nav ul {
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px;
+h1 {
+    font-family: 'serif';
+    font-size: 5em;
+    font-weight: 100;    
+}
+
+.flower {
+    font-family: 'fleurondingbats';
+    font-size: 2em;
+    line-height: .5em;
+    padding-right: 4px;
 }
 
 ul {
@@ -34,21 +34,37 @@ ul {
     padding: 0;
 }
 
-h1 {
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 0.2em 0.5em;
+}
+
+.nav__item--brand-logo {
+    margin-left: 0;
+    margin-right: auto;
+    font-family: 'fleurondingbats';
+    text-decoration: none;
     font-size: 3em;
 }
 
-section {
-    margin: 50px;
+.page-title {
+    text-transform: uppercase;
 }
 
 .collaborate-btn {
+    font-family: 'sans-serif';
     background-color: black;
+    border: 1px solid black;
     color: white;
     text-decoration: none;
     padding: 20px;
     display: inline-block;
-    margin-top: 20px;
 }
 
 .collaborate-btn:hover {
