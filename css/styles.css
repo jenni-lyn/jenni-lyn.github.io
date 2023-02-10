@@ -66,6 +66,8 @@ a {
     color: white;
     text-decoration: none;
     padding: 20px 30px;
+    width: 120px;
+    text-align: center;
     display: inline-block;
 }
 
