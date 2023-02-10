@@ -27,7 +27,7 @@ h1 {
     font-family: 'fleurondingbats';
     font-size: 2em;
     letter-spacing: -30px;
-    line-height: 0;
+    line-height: 20px;
     display: inline;
 }
 
@@ -65,14 +65,14 @@ a {
     border: 1px solid black;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 30px;
     display: inline-block;
 }
 
 .collaborate-btn:hover {
     background-color: white;
     border: 1px solid black;
-    color: black;
+    color: black
 }
 
 @media only screen and (max-width: 768px) {
