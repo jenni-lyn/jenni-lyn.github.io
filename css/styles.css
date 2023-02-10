@@ -25,8 +25,8 @@ h1 {
 .flower {
     font-family: 'fleurondingbats';
     font-size: 2em;
+    letter-spacing: -30px;
     line-height: .5em;
-    padding-right: 4px;
 }
 
 ul {
