@@ -86,6 +86,6 @@ a {
     }
 }
 
-.under-construction {
+span.under-construction {
     opacity: .5;
 }
