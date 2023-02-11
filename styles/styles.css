@@ -25,15 +25,14 @@ section {
 header {
   position: absolute;
   bottom: 0;
-  margin-bottom: 130px;
+  margin-bottom: 150px;
+  width: 80%;
 }
 header h1 {
-  width: 70%;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 header p {
-  width: 70%;
   margin-bottom: 30px;
 }
 header .under-construction {
