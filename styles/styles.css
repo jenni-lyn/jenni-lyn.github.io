@@ -1,0 +1,101 @@
+body {
+  font-family: "sans-serif";
+  font-size: 1.1em;
+  background-color: #f2f2f2;
+  margin: 40px;
+}
+
+header {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+header h1 {
+  width: 70%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+header p {
+  width: 70%;
+  margin-bottom: 30px;
+}
+header .under-construction {
+  opacity: 0.5;
+}
+
+.letter-u {
+  letter-spacing: -9px;
+}
+
+h1 {
+  font-family: "serif";
+  font-size: 5em;
+  font-weight: 100;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item--brand-logo {
+  margin-left: 0;
+  margin-right: auto;
+  font-family: "fleurondingbats";
+  text-decoration: none;
+  font-size: 3em;
+}
+.nav__item--brand-logo a {
+  background-color: none;
+  transform: scale(0);
+}
+.nav__item--brand-logo:hover {
+  text-decoration: none;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.collaborate-btn {
+  font-family: "sans-serif";
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+}
+.collaborate-btn .flower {
+  font-family: "fleurondingbats";
+  font-size: 2em;
+  padding-left: 2px;
+}
+.collaborate-btn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  h1 {
+    font-size: 3em;
+  }
+}/*# sourceMappingURL=styles.css.map */
