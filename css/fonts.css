@@ -40,3 +40,14 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'williwaw-book';
+    src: url('/fonts/williwaw-book-webfont.ttf') format('truetype'),
+         url('/fonts/williwaw-book-webfont.woff2') format('woff2'),
+         url('/fonts/williwaw-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

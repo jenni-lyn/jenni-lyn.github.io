@@ -85,3 +85,7 @@ a {
         font-size: 3em;
     }
 }
+
+.under-construction {
+    opacity: .5;
+}
