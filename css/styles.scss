@@ -126,3 +126,36 @@ a {
         font-size: 2em;
     }
 }
+
+section h1 {
+    margin-bottom: 50px;
+}
+
+.container {
+    float: right;
+    display: flex;
+    padding: 40px;
+    width: 700px;
+
+    p {
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .project-title {
+        font-family: 'williwaw-book';
+        font-size: 1.5em;
+    }
+
+    img {
+        min-width: 500px;
+        max-width: 500px;
+    }
+}
+
+.about-me {
+    float: left;
+    display: flex;
+    padding: 40px;
+    width: 700px;
+}

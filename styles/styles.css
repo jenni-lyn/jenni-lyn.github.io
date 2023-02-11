@@ -116,4 +116,33 @@ a:hover {
   h1 {
     font-size: 2em;
   }
+}
+section h1 {
+  margin-bottom: 50px;
+}
+
+.container {
+  float: right;
+  display: flex;
+  padding: 40px;
+  width: 700px;
+}
+.container p {
+  text-align: right;
+  padding-right: 20px;
+}
+.container .project-title {
+  font-family: "williwaw-book";
+  font-size: 1.5em;
+}
+.container img {
+  min-width: 500px;
+  max-width: 500px;
+}
+
+.about-me {
+  float: left;
+  display: flex;
+  padding: 40px;
+  width: 700px;
 }/*# sourceMappingURL=styles.css.map */
