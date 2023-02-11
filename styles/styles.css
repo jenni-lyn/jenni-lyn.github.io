@@ -121,25 +121,27 @@ a:hover {
 .container {
   float: right;
   display: flex;
+  flex-direction: column;
   padding: 40px;
-  width: 700px;
+  width: 80%;
 }
 .container p {
-  text-align: right;
+  text-align: left;
   padding-right: 20px;
+  margin-bottom: 0px;
 }
 .container .project-title {
   font-family: "williwaw-book";
   font-size: 1.5em;
 }
 .container img {
-  min-width: 50%;
-  max-width: 70%;
+  min-width: 70%;
+  max-width: 100%;
 }
 
 .about-me {
-  float: left;
-  display: flex;
+  text-align: center;
+  margin: 0 auto;
   padding: 40px;
   width: 700px;
 }/*# sourceMappingURL=styles.css.map */
