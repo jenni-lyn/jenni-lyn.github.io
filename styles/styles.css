@@ -164,13 +164,20 @@ a:hover {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   h1 {
-    font-size: 1.9em;
+    font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   body {
-    font-size: .9em;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  container {
+    padding: 0px;
   }
 }
