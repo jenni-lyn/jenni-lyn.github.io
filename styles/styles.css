@@ -126,7 +126,6 @@ a:hover {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 40px;
 }
 .container p {
   text-align: left;
@@ -149,6 +148,7 @@ a:hover {
 .about-me {
   margin: 0 auto;
   text-align: left;
+  padding: 30px 0px;  
 }/*# sourceMappingURL=styles.css.map */
 
 .zoom-out img { 
@@ -179,5 +179,12 @@ a:hover {
   /* For mobile phones: */
   container {
     padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  header {
+    margin-bottom: 200px;
   }
 }
