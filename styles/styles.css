@@ -167,3 +167,10 @@ a:hover {
     font-size: 1.9em;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    font-size: .9em;
+  }
+}
