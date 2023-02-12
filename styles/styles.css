@@ -58,10 +58,12 @@ ul {
 a {
   color: black;
   text-decoration: none;
+  transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;  
 }
 a:hover {
-  text-decoration: underline;
-  transition: all 0.5s ease-in-out;
+  border-bottom: .5px solid black;
 }
 
 .nav {
@@ -79,11 +81,13 @@ a:hover {
 .nav__item--brand-logo a {
   background-color: none;
   transform: scale(0);
+  transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;  
 }
 .nav__item--brand-logo:hover {
-  text-decoration: none;
   transform: scale(1.2);
-  transition: all 0.5s ease-in-out;
+  border-bottom: 0px;
 }
 
 .collaborate-btn {
@@ -107,7 +111,7 @@ a:hover {
 }
 .collaborate-btn:hover {
   background-color: white;
-  border: 1px solid black;
+  border: .5px solid black;
   color: black;
   text-decoration: none;
 }
@@ -117,6 +121,12 @@ a:hover {
   h1 {
     font-size: 2em;
   }
+}
+
+.box {
+  position: relative;
+  max-height: 90%;
+  overflow: hidden;
 }
 
 .container {
@@ -129,7 +139,7 @@ a:hover {
 .container p {
   text-align: left;
   padding-right: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .container .project-title {
   font-family: "williwaw-book";
@@ -138,14 +148,10 @@ a:hover {
 .container img {
   min-width: 70%;
   max-width: 100%;
-  transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
 }
 
-.container img:hover {
-  transform: scale(.99);
-  display: inline-block;
+.container a:hover {
+  border-bottom: none;
 }
 
 .about-me {
@@ -153,3 +159,12 @@ a:hover {
   text-align: left;
 }/*# sourceMappingURL=styles.css.map */
 
+.zoom-out img { 
+  transform: scale(100%); 
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease;  
+}
+.zoom-out:hover img { 
+  transform: scale(101%);  
+}
