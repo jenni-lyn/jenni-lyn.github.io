@@ -116,13 +116,6 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  h1 {
-    font-size: 2em;
-  }
-}
-
 .box {
   position: relative;
   max-height: 90%;
@@ -134,7 +127,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  width: 80%;
 }
 .container p {
   text-align: left;
@@ -167,4 +159,11 @@ a:hover {
 }
 .zoom-out:hover img { 
   transform: scale(101%);  
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  h1 {
+    font-size: 2em;
+  }
 }
