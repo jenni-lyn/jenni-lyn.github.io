@@ -59,8 +59,8 @@ a {
   color: black;
   text-decoration: none;
   transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;  
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
 }
 a:hover {
   text-decoration: underline;
@@ -82,8 +82,8 @@ a:hover {
   background-color: none;
   transform: scale(0);
   transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;  
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
 }
 .nav__item--brand-logo:hover {
   transform: scale(1.2);
@@ -101,8 +101,8 @@ a:hover {
   display: inline-flex;
   align-items: center;
   transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
 }
 .collaborate-btn .flower {
   font-family: "fleurondingbats";
@@ -134,7 +134,7 @@ a:hover {
   font-size: 1.4em !important;
 }
 .container p {
-  font-size: .8em;
+  font-size: 0.8em;
   padding-right: 20px;
   margin-top: 0px;
   margin-bottom: 10px;
@@ -143,7 +143,6 @@ a:hover {
   min-width: 70%;
   max-width: 100%;
 }
-
 .container a:hover {
   text-decoration: none;
 }
@@ -152,18 +151,20 @@ a:hover {
   margin: 0 auto;
   text-align: left;
   padding-top: 100px;
-  padding-bottom: 10px; 
-  font-size: .75em;
-}/*# sourceMappingURL=styles.css.map */
+  padding-bottom: 10px;
+  font-size: 0.75em;
+}
 
-.zoom-out img { 
-  transform: scale(100%); 
+/*# sourceMappingURL=styles.css.map */
+.zoom-out img {
+  transform: scale(100%);
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease;  
+  -moz-transition: all 0.5s ease;
 }
-.zoom-out:hover img { 
-  transform: scale(101%);  
+
+.zoom-out:hover img {
+  transform: scale(101%);
 }
 
 @media only screen and (max-width: 768px) {
@@ -171,25 +172,13 @@ a:hover {
   h1 {
     font-size: 2em;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
   body {
     font-size: 1.2em;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
   container {
     padding: 0px;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
   header {
     margin-bottom: 200px;
   }
-}
+}/*# sourceMappingURL=styles.css.map */

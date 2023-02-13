@@ -1,15 +1,15 @@
 body {
-    font-family: 'sans-serif';
-    font-size: 1.1em;
+    font-family: "sans-light";
+    font-size: 1.4em;
     background-color: #f2f2f2;
     margin: 40px;
 }
 
 section {
-    position:sticky;
-    position:-webkit-sticky;
+    position: sticky;
+    position: -webkit-sticky;
     top: 0;
-    min-height:50vh;
+    min-height: 50vh;
 }
 
 #section-one {
@@ -25,21 +25,20 @@ section {
 header {
     position: absolute;
     bottom: 0;
-    margin-bottom: 130px;
+    margin-bottom: 150px;
+    width: 80%;
 
     h1 {
-        width: 70%;
         margin-bottom: 20px;
         text-transform: uppercase;
     }
 
     p {
-        width: 70%;
         margin-bottom: 30px;
     }
-    
+
     .under-construction {
-        opacity: .5;
+        opacity: 0.5;
     }
 }
 
@@ -48,10 +47,10 @@ header {
 }
 
 h1 {
-    font-family: 'serif';
-    font-size: 5em;
-    font-weight: 100; 
-    text-transform: uppercase;   
+    font-family: "serif";
+    font-size: 4.5em;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 ul {
@@ -62,10 +61,12 @@ ul {
 a {
     color: black;
     text-decoration: none;
-    
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+
     &:hover {
-    text-decoration: underline;
-    transition: all .5s ease-in-out;
+        text-decoration: underline;
     }
 }
 
@@ -77,24 +78,27 @@ a {
 .nav__item--brand-logo {
     margin-left: 0;
     margin-right: auto;
-    font-family: 'fleurondingbats';
+    font-family: "fleurondingbats";
     text-decoration: none;
     font-size: 3em;
 
     a {
         background-color: none;
         transform: scale(0);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
     }
 
     &:hover {
-        text-decoration: none;
         transform: scale(1.2);
-        transition: all .5s ease-in-out;
+        text-decoration: none;
     }
 }
 
+
 .collaborate-btn {
-    font-family: 'sans-serif';
+    font-family: "sans-light";
     background-color: black;
     border: 1px solid black;
     color: white;
@@ -103,9 +107,12 @@ a {
     text-align: center;
     display: inline-flex;
     align-items: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
 
     .flower {
-        font-family: 'fleurondingbats';
+        font-family: "fleurondingbats";
         font-size: 2em;
         padding-left: 2px;
     }
@@ -115,47 +122,81 @@ a {
         border: 1px solid black;
         color: black;
         text-decoration: none;
-        transition: all .5s ease-in-out;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-
-    h1 {
-        font-size: 2em;
-    }
-}
-
-section h1 {
-    margin-bottom: 50px;
+.box {
+    position: relative;
+    max-height: 90%;
+    overflow: hidden;
 }
 
 .container {
-    float: right;
+    margin: 0 auto;
     display: flex;
-    padding: 40px;
-    width: 700px;
-
-    p {
-        text-align: right;
-        padding-right: 20px;
-    }
+    flex-direction: column;
+    width: 90%;
+    padding-top: 100px;
 
     .project-title {
-        font-family: 'williwaw-book';
-        font-size: 1.5em;
+        font-family: "williwaw-book";
+        font-size: 1.4em !important;
+    }
+
+    p {
+        font-size: .8em;
+        padding-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 
     img {
-        min-width: 500px;
-        max-width: 500px;
+        min-width: 70%;
+        max-width: 100%;
+    }
+
+    a:hover {
+        text-decoration: none;
     }
 }
 
 .about-me {
-    float: left;
-    display: flex;
-    padding: 40px;
-    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: .75em;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.zoom-out img {
+    transform: scale(100%);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease;
+}
+
+.zoom-out:hover img {
+    transform: scale(101%);
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    h1 {
+        font-size: 2em;
+    }
+
+    body {
+        font-size: 1.2em;
+    }
+
+    container {
+        padding: 0px;
+    }
+
+    header {
+        margin-bottom: 200px;
+    }
 }
