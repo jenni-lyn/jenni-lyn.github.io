@@ -6,6 +6,8 @@ body {
 }
 
 header {
+    position: absolute;
+    top: 70px;
     bottom: 0;
     width: 80%;
 
@@ -184,11 +186,15 @@ a {
     transform: scale(101%);
 }
 
+footer {
+    display: block;
+}
+
 @media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
     h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     body {
