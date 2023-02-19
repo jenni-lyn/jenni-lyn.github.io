@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap");
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "PretendardStd", sans-serif;
   font-weight: 400;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -51,8 +51,8 @@ hr {
 }
 
 h1 {
+  font-family: "PretendardStd-SemiBold";
   font-size: 1em;
-  font-weight: 600;
   text-transform: none;
 }
 
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .collaborate-btn {
-  font-family: "Inter", sans-serif;
+  font-family: "PretendardStd", sans-serif;
   background-color: black;
   border: 1px solid black;
   color: white;
@@ -153,7 +153,7 @@ a:hover {
   max-width: 1080px;
 }
 .container .project-title {
-  font-weight: 600;
+  font-family: "PretendardStd-SemiBold";
 }
 .container p {
   font-size: 1em;

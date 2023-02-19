@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'PretendardStd',
+        sans-serif;
     font-weight: 400;
     font-size: 1.1em;
     line-height: 1.5em;
@@ -60,8 +61,8 @@ h1 {
     // font-size: 4.5em;
     // font-weight: 100;
     // text-transform: uppercase;
+    font-family: 'PretendardStd-SemiBold';
     font-size: 1em;
-    font-weight: 600;
     text-transform: none;
 }
 
@@ -126,7 +127,7 @@ a {
 
 
 .collaborate-btn {
-    font-family: 'Inter', sans-serif;
+    font-family: 'PretendardStd', sans-serif;
     background-color: black;
     border: 1px solid black;
     color: white;
@@ -173,7 +174,7 @@ a {
     // }
 
     .project-title {
-        font-weight: 600;
+        font-family: 'PretendardStd-SemiBold';
     }
 
     p {
