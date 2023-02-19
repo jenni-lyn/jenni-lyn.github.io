@@ -194,16 +194,5 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  body {
-    font-size: 1.2em;
-  }
-  container {
-    padding: 0px;
-    width: 100% !important;
-    max-width: 800px !important;
-  }
-  header {
-    margin-bottom: 200px;
-  }
 }
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
