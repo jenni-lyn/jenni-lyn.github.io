@@ -58,6 +58,14 @@ section {
     img {
         width: 100%;
     }
+
+    hr {
+        margin-top: 50px;
+    }
+}
+
+.interior-container {
+    margin-top: 50px;
 }
 
 .interior-summary {
@@ -180,6 +188,7 @@ strong {
     position: relative;
     max-height: 90%;
     overflow: hidden;
+    padding: 10px 0;
 }
 
 .container {
@@ -187,7 +196,8 @@ strong {
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     max-width: 1080px;
 
     // .project-title {
