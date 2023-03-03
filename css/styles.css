@@ -4,7 +4,7 @@ body {
   font-size: 1.1em;
   line-height: 1.5em;
   background-color: #f2f2f2;
-  margin: 80px;
+  margin: 40px;
 }
 
 header {
@@ -110,7 +110,6 @@ strong {
   display: flex;
   justify-content: flex-end;
   width: -webkit-fill-available;
-  margin-left: -45px;
 }
 
 .navbar-fixed-top {
