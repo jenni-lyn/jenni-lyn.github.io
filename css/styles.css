@@ -222,6 +222,11 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+  body {
+    margin: 20px;
+  }
+  #interior-section-one {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=styles.css.map */
